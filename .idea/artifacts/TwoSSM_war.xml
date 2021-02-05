@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TwoSSM:war">
+    <output-path>$PROJECT_DIR$/TwoSSM/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TwoSSM</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TwoSSM.war">
+      <element id="artifact" artifact-name="TwoSSM:war exploded" />
+    </root>
+  </artifact>
+</component>
