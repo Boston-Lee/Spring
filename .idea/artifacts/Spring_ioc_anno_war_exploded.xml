@@ -26,6 +26,12 @@
           <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-params:5.7.1" />
           <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" />
           <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.2.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
