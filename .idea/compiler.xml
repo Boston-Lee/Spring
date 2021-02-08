@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring_AOP" />
         <module name="Spring_ioc_anno" />
         <module name="TwoSSM" />
+        <module name="Spring_ioc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring_AOP" target="1.7" />
+      <module name="Spring_ioc" target="1.7" />
       <module name="Spring_ioc_anno" target="1.7" />
       <module name="TwoSSM" target="1.7" />
     </bytecodeTargetLevel>

@@ -2,6 +2,8 @@ package com.ie.test;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.beans.PropertyVetoException;
 import java.sql.Connection;
@@ -11,6 +13,12 @@ public class DataSource {
     /* public static void main(String[] args) {
 
      }*/
+    @Test
+    public void test2() throws Exception{
+        ApplicationContext app=new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        DataSource dataSource = (DataSource) app.getBean("dataSource");
+
+    }
     @Test
 //    手动配置数据源(加载配置文件)
     public void test1() throws Exception {
@@ -39,4 +47,5 @@ public class DataSource {
         connection.close();
 
     }
+
 }
