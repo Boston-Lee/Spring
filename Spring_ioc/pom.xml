@@ -178,7 +178,7 @@
             <artifactId>mybatis-spring</artifactId>
             <version>${mybatis.spring.version}</version>
         </dependency>
-        <!-- myql 依赖包 -->
+        <!-- mysql 依赖包 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -361,7 +361,6 @@
             <artifactId>taglibs-standard-spec</artifactId>
             <version>${taglibs-standard-spec.version}</version>
         </dependency>
-
 
     </dependencies>
     <build>

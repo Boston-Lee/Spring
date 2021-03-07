@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring_ioc_anno" />
         <module name="TwoSSM" />
-        <module name="Spring_ioc" />
+        <module name="Spring_crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Login" target="1.7" />
+      <module name="Spring_crud" target="1.7" />
       <module name="Spring_ioc" target="1.7" />
       <module name="Spring_ioc_anno" target="1.7" />
       <module name="TwoSSM" target="1.7" />
