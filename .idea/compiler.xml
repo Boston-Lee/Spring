@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="GeneratorSqlmap" />
         <module name="Spring_ioc_anno" />
         <module name="TwoSSM" />
-        <module name="Spring_crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="GeneratorSqlmap" target="1.7" />
       <module name="Login" target="1.7" />
       <module name="Spring_crud" target="1.7" />
       <module name="Spring_ioc" target="1.7" />

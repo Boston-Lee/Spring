@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeneratorSqlmap/GeneratorSqlmap.iml" filepath="$PROJECT_DIR$/GeneratorSqlmap/GeneratorSqlmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_crud/Spring_crud.iml" filepath="$PROJECT_DIR$/Spring_crud/Spring_crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_ioc_anno/Spring_ioc_anno.iml" filepath="$PROJECT_DIR$/Spring_ioc_anno/Spring_ioc_anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoSSM/TwoSSM.iml" filepath="$PROJECT_DIR$/TwoSSM/TwoSSM.iml" />
     </modules>

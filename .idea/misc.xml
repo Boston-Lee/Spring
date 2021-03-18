@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/GeneratorSqlmap" />
     <file type="web" url="file://$PROJECT_DIR$/Login" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_crud" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_ioc_anno" />
@@ -12,7 +13,7 @@
         <option value="$PROJECT_DIR$/Spring_AOP/pom.xml" />
         <option value="$PROJECT_DIR$/TwoSSM/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_ioc_anno/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/GeneratorSqlmap/pom.xml" />
       </list>
     </option>
   </component>
