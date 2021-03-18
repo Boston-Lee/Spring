@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GeneratorSqlmap:war">
+    <output-path>$PROJECT_DIR$/GeneratorSqlmap/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GeneratorSqlmap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GeneratorSqlmap.war">
+      <element id="artifact" artifact-name="GeneratorSqlmap:war exploded" />
+    </root>
+  </artifact>
+</component>
