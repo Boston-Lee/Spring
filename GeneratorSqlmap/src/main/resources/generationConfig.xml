@@ -49,17 +49,17 @@
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 指定数据库表 -->
-        <table tableName="car"></table>
+        <!--<table tableName="car"></table>
         <table tableName="comment"></table>
         <table tableName="item"></table>
         <table tableName="item_category"></table>
         <table tableName="item_order"></table>
         <table tableName="manage"></table>
         <table tableName="message"></table>
-        <table tableName="news"></table>
-        <table tableName="order_datail"></table>
-        <table tableName="sc"></table>
-        <table tableName="user"></table>
+        <table tableName="news"></table>-->
+        <table tableName="order_detail"></table>
+        <!--<table tableName="sc"></table>
+        <table tableName="user"></table>-->
         <!-- <table schema="" tableName="sys_user"></table>
         <table schema="" tableName="sys_role"></table>
         <table schema="" tableName="sys_permission"></table>
